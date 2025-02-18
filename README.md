@@ -8,4 +8,4 @@ This notebook can be used as a solution accelerator for importing summaries of F
 This notebook is intended to help you identify semantic models that use the large semantic model storage format across your Fabric tenant when you are considering moving certain workspaces to capacities in different regions. Furthermore, this notebook offers remediation suggestions to help you complete the cross-region move.
 
 ## [Analyze OneLake Storage Usage in a Fabric Workspace](/Analyze%20OneLake%20Storage%20Usage.ipynb)
-This notebook recursively traverses folders and files in a given Workspace or OneLake path, returns a list of all files within the path broken out by path segment and provides a few basic summaries about the number and size of files.
+This notebook helps Microsoft Fabric workspace administrators manage and track data stored in OneLake. It recursively traverses folders and files in a given Workspace or OneLake path, stores a snapshot into a Lakehouse table and returns a list of all files within the path broken out by path segment and provides a few basic summaries about the number and size of files.
